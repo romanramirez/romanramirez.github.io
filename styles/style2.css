@@ -29,12 +29,21 @@
         object-fit: cover;
     }
 
-.content{
+.content {
     position: relative;
     margin: 0 auto;
     text-align: center;
     z-index: 1;
     max-width: 1000px;
+}
+
+.content p{
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: 400;
+    color: #fff;
+    padding: 0 20% 0 20%;
 }
 
 .content h1 {
@@ -45,17 +54,9 @@
     text-transform: uppercase;
     color: #fff;
     font-family: "Helvetica Neue", Helvetica, sans-serif;
+    padding: 0 10% 0 10%;
 }
 
-.content p {
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    font-weight: 400;
-    color: #fff;
-    padding: 0 20% 0 20%;
-
-}
 
 
 button {  
