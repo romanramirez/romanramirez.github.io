@@ -44,6 +44,7 @@
     font-weight: 400;
     color: #fff;
     padding: 0 20% 0 20%;
+    display: inline-block;
 }
 
 .content h1 {
@@ -54,7 +55,8 @@
     text-transform: uppercase;
     color: #fff;
     font-family: "Helvetica Neue", Helvetica, sans-serif;
-    padding: 0 10% 0 10%;
+    padding: 0 0% 0 0%;
+    display: inline-block;
 }
 
 
