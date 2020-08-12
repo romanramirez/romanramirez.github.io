@@ -48,7 +48,9 @@
     display: inline-block;
 }
 
-
+a:hover {
+    text-decoration: none;
+}
 
 button {  
     font-family: Roboto;
