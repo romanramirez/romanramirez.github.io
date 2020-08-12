@@ -50,6 +50,7 @@
 
 a:hover {
     text-decoration: none;
+
 }
 
 button {  
@@ -69,6 +70,7 @@ button {
     text-decoration: none;
     filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
     padding: 0 0 0 0;
+    outline: none;
     }
 
 #logo-landing {
