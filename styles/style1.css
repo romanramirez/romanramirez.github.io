@@ -1,7 +1,5 @@
 /* This is the stylesheet for my portfolio website. */
 
-
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&family=UnifrakturCook:wght@700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
@@ -153,7 +151,7 @@ main {
     margin: 20px 10px 0;
     color: black;
     text-decoration: none;
-    
+
 }
 
 .media .fa:hover{
