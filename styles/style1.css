@@ -1,19 +1,45 @@
 /* This is the stylesheet for my portfolio website. */
 
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&family=UnifrakturCook:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utility Classes */
+a {
+    text-decoration: none;
+}
+
+/* CSS I Wrote When I Was Young And Stupid */
 
 #page-title {
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
 }
 
-#body-paragraph {
+.nav {
     font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    margin-top: 25px;
+}
+
+
+#body-paragraph {
+    font-family: 'Raleway', sans-serif;
     color: #333333;
     font-size: 20px;
     font-weight: 200;
+    margin: 10px 0;
 }
-
 
 #specialText {
     font-family: 'UnifrakturCook', cursive;
@@ -77,8 +103,6 @@
     border-radius: 15px;
 }
 
-#header ul li a {
-}
 
 #header ul li a:link {
     color: white;
@@ -96,11 +120,10 @@
      margin-top: 5px;
 }
 
-
-
-#main {
+main {
     background-color: white;
-    
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 #first-section-title {
@@ -123,8 +146,19 @@
     border-radius: 85px;
 }
 
-.media {
-size: 50px;
+.media  {
+}
+
+.media .fa{
+    margin: 20px 10px 0;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.media .fa:hover{
+    opacity: 0.7;
+    transition-delay: .1s;
 }
 
 .fa-customize {
@@ -132,6 +166,7 @@ size: 50px;
 }
 
 .gallery {
+    display: flex;
     margin: 10px 50px;
     padding-top: 20px;
 }
@@ -140,15 +175,12 @@ size: 50px;
     transition: 1s;
     padding: 15px;
     width: 200px;
+    border-radius: 35px;
 }
 
 .gallery img:hover {
     filter: grayscale(100%);
-    transform: scale(1:1);
-}
-
-#footer {
-
+    transform: scale(1.1);
 }
 
 body#contact-page form#contact-form {
@@ -170,4 +202,9 @@ body#contact-page form#contact-form input {
 body#contact-page form#contact-form#submit {
     font-size: 20px;
     width: 100px;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3rem;
 }
